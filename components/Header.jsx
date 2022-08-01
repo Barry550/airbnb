@@ -24,7 +24,6 @@ export default function Header({placeholder}) {
   }
 
   const search = () =>{
-
     router.push({
       pathname: '/search',
       query:{

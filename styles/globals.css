@@ -8,9 +8,27 @@
     }
 }
 
-.rdrDateRangePickerWrapper {
-    /* display: inline-flex; */
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    /* user-select: none; */
-}
+
+@media screen and (max-width: 600px) {
+    .rdrDateRangePickerWrapper {
+        display: inline-flex;
+        /* -webkit-user-select: none; */
+        -moz-user-select: none;
+        /* user-select: none; */
+        flex-direction: column-reverse !important;
+        align-items: center !important;
+    }
+
+    .rdrDefinedRangesWrapper {
+        display: none !important;
+        flex: none !important;
+        font-size: 12px;
+        width: 226px;
+        border-right: solid 1px #eff2f7;
+        background: #fff;
+    }
+    
+  }
+
+/* Google map */
+
